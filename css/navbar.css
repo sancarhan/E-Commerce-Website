@@ -1,0 +1,49 @@
+.navbar{
+ font-size: 16px;
+ top: 0;
+ left: 0;
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+padding: 0 20px;
+color: black;
+transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-item .nav-link.active,
+.navbar i.active{
+ color: coral;
+}
+
+.navbar i{
+ font-size: 1.5rem;
+ padding: 0 7px;
+ transition: 0.3s ease;
+ cursor: pointer;
+}
+
+#bar{
+ font-size: 1.5rem;
+ padding: 7px;
+ cursor: pointer;
+ transition: 0.3s ease;
+ color: black;
+}
+
+
+
+
+#bar:hover,
+#bar.active{
+ color: white;
+}
+
+/* Mobil Nav */
+.navbar-light .navbar-toggler{
+ border: none;
+ outline: none;
+}
